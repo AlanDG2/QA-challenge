@@ -1,0 +1,29 @@
+[
+    {
+        "name": "should empty inputs message",
+        "username": "user",
+        "password": "user",
+        "expected": "Username cannot be empty!",
+        "test": 1
+    },
+    
+    {
+        "name": "should display credentials ",
+        "username": "user",
+        "password": "error",
+        "expected": "Failed to sign in! Please check your credentials and try again.",
+        "test": 2
+    },
+
+    {
+        "name": "should login  to home page",
+        "username": "user",
+        "password": "user",
+        "expected": "Welcome to Ensolvers QA Challenge!",
+        "test": 3
+    }
+
+
+    
+  
+]
